@@ -18,12 +18,11 @@ public class test
     mat = inp.nextInt();
 
     
- System.out.println(mat);
-    System.out.println("Fizik Notunuz :");
-    fizik = inp.nextInt();
+ System.out.println("Fizik Notunuz :");
+ fizik = inp.nextInt();
   
  System.out.println("Tarih Notunuz :");
-    tarih = inp.nextInt();
+ tarih = inp.nextInt();
   
  System.out.println("Kimya Notunuz :");
     kimya = inp.nextInt();
