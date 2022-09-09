@@ -13,14 +13,19 @@ public class test
     Scanner inp = new Scanner(System.in);
 
    // Kullanıcıdan değerleri al
-    System.out.println("Matematik Notunuz :");
+    
+ System.out.println("Matematik Notunuz :");
     mat = inp.nextInt();
-    System.out.println(mat);
+
+    
+ System.out.println(mat);
     System.out.println("Fizik Notunuz :");
     fizik = inp.nextInt();
-    System.out.println("Tarih Notunuz :");
+  
+ System.out.println("Tarih Notunuz :");
     tarih = inp.nextInt();
-    System.out.println("Kimya Notunuz :");
+  
+ System.out.println("Kimya Notunuz :");
     kimya = inp.nextInt();
 
 
