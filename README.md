@@ -15,30 +15,38 @@ public class test
    // Kullanıcıdan değerleri al
     
  System.out.println("Matematik Notunuz :");
-    mat = inp.nextInt();
+    
+mat = inp.nextInt();
 
     
  System.out.println("Fizik Notunuz :");
+ 
  fizik = inp.nextInt();
   
  System.out.println("Tarih Notunuz :");
- tarih = inp.nextInt();
+
+tarih = inp.nextInt();
   
  System.out.println("Kimya Notunuz :");
-    kimya = inp.nextInt();
+  
+  kimya = inp.nextInt();
 
 
 System.out.println("Türkçe Notunuz :");
+    
     turkce = inp.nextInt();
 
    
    System.out.println("Müzik Notunuz :");
-    muzik = inp.nextInt();
+   
+   muzik = inp.nextInt();
 
   
   double toplam = (mat + fizik + tarih +turkce+ muzik +kimya);
-    double sonuc = toplam / 6;
-    System.out.println("Not ortalama sonucunuz : " + sonuc );
+    
+   double sonuc = toplam / 6;
+  
+  System.out.println("Not ortalama sonucunuz : " + sonuc );
     
 
 
